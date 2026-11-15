@@ -23,7 +23,7 @@ A simple, fast command-line tool for managing task cards, written in Rust. A spi
 ### Homebrew
 
 ```bash
-brew install markryall/tap/cardthing
+brew install nih-industries/tap/cardthing
 ```
 
 ### Cargo
@@ -40,7 +40,7 @@ cargo install cardthing
 
 ```bash
 # Clone the repository
-git clone https://github.com/markryall/cardthing.git
+git clone https://github.com/NIH-Industries/cardthing.git
 cd cardthing
 
 # Build release version
@@ -380,7 +380,7 @@ cargo test -- --nocapture
 mise run publish 0.1.2
 ```
 
-Runs the tests, bumps the version, pushes main, tags it, publishes to crates.io, and updates the formula in [markryall/homebrew-tap](https://github.com/markryall/homebrew-tap) (`TAP_DIR` overrides where the tap checkout lives). Start from an empty working copy on main in both repos.
+Runs the tests, bumps the version, pushes main, tags it, publishes to crates.io, and updates the formula in [NIH-Industries/homebrew-tap](https://github.com/NIH-Industries/homebrew-tap) (`TAP_DIR` overrides where the tap checkout lives). Start from an empty working copy on main in both repos.
 
 ### Project Structure
 

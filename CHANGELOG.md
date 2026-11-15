@@ -6,6 +6,12 @@ All notable changes to cardthing. The format follows
 
 ## Unreleased
 
+### Changed
+
+- cardthing now lives at github.com/NIH-Industries/cardthing, and Homebrew
+  installs it from `nih-industries/tap` (`brew install nih-industries/tap/cardthing`).
+  The old addresses redirect.
+
 ## 0.1.5 - 2026-11-13
 
 ### Added
